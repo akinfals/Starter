@@ -112,6 +112,58 @@ html,
     margin: 0;
 }
 
+/* Projects
+/* ---------------------------------------------------------- */
+
+.gh-projects {
+    padding: 0 0 5vmin;
+    max-width: 680px;
+}
+
+.gh-projects-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 2.4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gh-projects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.gh-project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.gh-project-name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-base);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.gh-project-name:hover {
+    opacity: 0.6;
+}
+
+.gh-project-desc {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 1.5;
+}
+
 /* Post List
 /* ---------------------------------------------------------- */
 
